@@ -1,0 +1,23 @@
+
+<div class="row padding content-wrapper">
+<button type="button" class="btn btn-danger" [routerLink] = "'/home'">Back</button>
+
+    <div
+      class="building-block-config el2_5 databank-content  col-lg-6  quarter image-top  ratio-1x1 medium  mob-width-full mob-image-left mob-fixed-height mob-height-tall">
+      <div class="building-block-wrapper" >
+        <div class="image-wrapper">
+          <div class="aspect"> 
+             <img
+                src="{{currentUser.imageUrl}}" height="400px" width="600px"
+                class="thumb reserved-ratio" alt="{{currentUser.name}}"> </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 ">
+        <div class="content-info">
+            <h1 class="title"> 
+               <span class="title">{{currentUser.name}}</span> </h1>
+          </div>
+        <span class="aboutText">{{currentUser.about}} </span>
+    </div>
+    </div>

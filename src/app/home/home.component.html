@@ -1,0 +1,22 @@
+<mat-form-field appearance="fill">
+<input  matInput [(ngModel)]="terms" placeholder="Serach any fields"/>
+</mat-form-field>
+
+<div class="row padding">
+    <div
+      class="building-block-config el2_5 databank-content  col-md-3  quarter image-top  ratio-1x1 medium  mob-width-full mob-image-left mob-fixed-height mob-height-tall" *ngFor="let user of Users | search:terms">
+      <div class="building-block-wrapper" >
+        <div class="image-wrapper">
+          <div class="aspect"> 
+            <a [routerLink]="['/home/',user.id]">
+             <img
+                src="{{user.imageUrl}}" height="200px" width="300px"
+                class="thumb reserved-ratio" alt="{{user.name}}"></a> </div>
+        </div>
+            <div class="content-info">
+              <h3 class="title"> <a href="#" data-slug="databank/mandalorian-vault"> 
+                 <span class="long-title">{{user.name}}</span> </a> </h3>
+            </div>
+      </div>
+    </div>
+    </div>

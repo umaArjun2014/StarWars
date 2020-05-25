@@ -1,0 +1,29 @@
+<div class="header">
+  <p class="textHeade">Star Wars</p>
+</div>
+<div>
+  <mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a [routerLink]="['/dashboard']"
+         mat-list-item  
+         (click)="sidenav.toggle()"> Dashboard</a>
+    <a  [routerLink]="['/home']"
+         mat-list-item  
+         (click)="sidenav.toggle()"> Home</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 88vh;">
+        <mat-toolbar color="primary">
+          <button  mat-icon-button 
+                   aria-label="Menu"
+                   (click)="sidenav.open()">
+          <mat-icon>menu</mat-icon>
+        </button>  
+  </mat-toolbar>
+    <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+</div>

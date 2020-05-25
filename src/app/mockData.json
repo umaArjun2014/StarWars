@@ -1,0 +1,104 @@
+[
+    {
+        "listOfUsers":
+        [{
+                "id": "101",
+                "name":"MANDALORIAN VAULT",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/mandalorian-vault-main_08cfacb4.jpeg?region=156%2C0%2C967%2C544&amp;width=480",
+                "about":"The proud warriors of Mandalore have many ways of dealing with off-world intruders. For a time, they dealt with Force-wielding enemies in particular through powerful technology, including encasing their foes in a vault-like prison that could be hauled from place to place much like a slab of carbonite."
+            } ,
+            {
+                "id": "102",
+                "name":"MAUL",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg?region=75%2C42%2C1525%2C858&amp;width=480",
+                "about":"A deadly, agile Sith Lord trained by the evil Darth Sidious, Darth Maul was a formidable warrior and scheming mastermind. He wielded an intimidating double-bladed lightsaber and fought with a menacing ferocity. Though he fell in battle against Obi-Wan Kenobi, the Zabrak from Dathomir would prove to be much harder to destroy than originally believed."
+            } ,
+
+            {
+                "id": "103",
+                "name":"BO-KATAN KRYZE",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-qcuh4a_52af809e.jpeg?region=0%2C0%2C1200%2C600",
+                "about":"A gifted warrior, Bo-Katan Kryze is a legendary Mandalorian. She refused to align with the Empire's occupation of Mandalore, and now wields the Darksaber as the leader of the Mandalorian resistance"
+            },
+
+            {
+                "id": "104",
+                "name":"MAUL",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg?region=75%2C42%2C1525%2C858&amp;width=480",
+                "about":"A deadly, agile Sith Lord trained by the evil Darth Sidious, Darth Maul was a formidable warrior and scheming mastermind. He wielded an intimidating double-bladed lightsaber and fought with a menacing ferocity. Though he fell in battle against Obi-Wan Kenobi, the Zabrak from Dathomir would prove to be much harder to destroy than originally believed."
+            },
+
+            {
+                "id": "105",
+                "name":"AHSOKA TANO",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/victory-and-death-main_4ff8c618.jpeg?region=178%2C0%2C966%2C544&amp;width=480",
+                "about":"Ahsoka Tano, a Togruta female, was the Padawan learner to Anakin Skywalker and a hero of the Clone Wars. Alongside Anakin, she grew from headstrong student into a mature leader. But her destiny laid along a different path than the Jedi."
+            },
+
+            {
+                "id": "106",
+                "name":"CLONE CAPTAIN X",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/captain-rex-main_aa5c3c4f.jpeg?region=227%2C0%2C720%2C720&amp;width=160",
+                "about":"Clone Captain Rex served the Republic during the Clone Wars, often taking orders from Anakin Skywalker and Ahsoka Tano. He viewed military service as an honor, and he always completed his mission. Fond of using two blaster pistols at the same time, Rex customized his armor with distinctive blue markings. His loyalty to the Republic and his Jedi Generals was absolute, but even this dedicated veteran soldier found himself plagued by doubts as the Clone Wars claimed more lives and brought ruin to more worlds."
+            },
+
+            {
+                "id": "107",
+                "name":"R2-D2",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_042e8d4f.jpeg?region=320%2C0%2C960%2C540&amp;width=480",
+                "about":"The ever-reliable and versatile astromech droid R2-D2 continues his service to the Resistance, becoming a vital link in operations against the First Order. Over many years, R2-D2 has served Padmé Amidala, Anakin Skywalker, and Luke Skywalker in turn, showing great bravery in rescuing his masters and their friends from many perils. A skilled starship mechanic and fighter pilot's assistant, he has an unlikely but enduring friendship with the fussy protocol droid C-3PO."
+            },
+
+            {
+                "id": "108",
+                "name":"ANAKIN SKYWALKER",
+                "imageUrl":"https://lumiere-a.akamaihd.net/v1/images/Anakin-Skywalker_d3330724.jpeg?region=0%2C0%2C1200%2C675&amp;width=480",
+                "about":"Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever, and was believed by some to be the prophesied Chosen One who would bring balance to the Force. A hero of the Clone Wars, Anakin was caring and compassionate, but also had a fear of loss that would prove to be his downfall."
+            }]
+        },
+        {
+            "listOfFilms" : 
+            [{
+                "film" : "Rogue One",
+                "NumOfChars": "32",
+                "NumOfCharsSpecies": "6"
+            },
+            {
+                "film" : "Revenge of sith",
+                "NumOfChars": "17",
+                "NumOfCharsSpecies": "6"
+            },
+            {
+                "film" : "Attack of the clones",
+                "NumOfChars": "51",
+                "NumOfCharsSpecies": "16"
+            },
+            {
+                "film" : "A New Hope",
+                "NumOfChars": "12",
+                "NumOfCharsSpecies": "4"
+            },
+            {
+                "film" : "The empire strikes back",
+                "NumOfChars": "72",
+                "NumOfCharsSpecies": "16"
+            },
+            {
+                "film" : "The Force awaken",
+                "NumOfChars": "22",
+                "NumOfCharsSpecies": "7"
+            },
+            {
+                "film" : "Return Of the jedi",
+                "NumOfChars": "21",
+                "NumOfCharsSpecies": "16"
+            },
+            {
+                "film" : "The Rise of skywalker",
+                "NumOfChars": "42",
+                "NumOfCharsSpecies": "12"
+            }
+        
+        ]
+        }
+]

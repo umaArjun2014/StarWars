@@ -1,0 +1,23 @@
+.title {
+    font-size: 1.4em;
+    line-height: 1.15em;
+    margin-top: 5px;
+    letter-spacing: 0.03em;
+    color: #ddd;
+    text-transform: uppercase;
+    white-space: normal;
+    font-family: DIN, Helvetica, Arial, sans-serif;
+}
+.content-wrapper {
+    background-color: #282727;
+    border-style: solid;
+    border-width: 2px 0 0;
+    border-color: #555;
+    z-index: 2;
+    position: relative;
+}
+.aboutText{
+    color: #ddd;
+    white-space: normal;
+    font-family: DIN, Helvetica, Arial, sans-serif;
+}
